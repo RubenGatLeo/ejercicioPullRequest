@@ -9,6 +9,9 @@
     <script src='main.js'></script>
 </head>
 <body>
+    <?php
+    echo "hola";
+    ?>
     <form name="inicioSesión" method="POST" action="IncioSesion.php">
         <input type="text" name="nombre">
         <input type="password" name="contrasena">
