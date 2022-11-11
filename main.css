@@ -2,6 +2,9 @@
     border-radius: 6px;
     color: #0099CC;
     background: transparent;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 .btn:hover {
     background-color: #008CBA;
