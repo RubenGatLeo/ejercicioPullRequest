@@ -6,9 +6,13 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <script defer src='main.js'></script>
 </head>
 <body>
-    
+    <form>
+        <label>Usuario</label><input type="text" id="usu" placeholder="Introduce tu usuario">
+        <label>Contraseña</label><input type="password" required="required" id="contra">
+        <input type="submit" id="boton" value="Iniciar sesion">
+    </form>
 </body>
 </html>
