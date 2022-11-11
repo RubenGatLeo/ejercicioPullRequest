@@ -1,4 +1,4 @@
-.btn{
+#boton{
     border-radius: 6px;
     color: #0099CC;
     background: transparent;
@@ -6,7 +6,7 @@
     display: inline-block;
     font-size: 16px;
 }
-.btn:hover {
+#boton:hover {
     background-color: #008CBA;
     color: white;
 }
